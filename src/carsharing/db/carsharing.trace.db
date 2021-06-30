@@ -1,0 +1,188 @@
+2021-06-29 14:33:08 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLDataException: Invalid value "0" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:334)
+	at carsharing.CompanyDAOImpl.getAllCompanies(CompanyDAOImpl.java:39)
+	at carsharing.Main.printCompanyList(Main.java:65)
+	at carsharing.Main.loginAsManager(Main.java:52)
+	at carsharing.Main.loginAsManager(Main.java:57)
+	at carsharing.Main.loginAsManager(Main.java:53)
+	at carsharing.Main.main(Main.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:173)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:200)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-06-29 14:34:32 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLDataException: Invalid value "0" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:334)
+	at carsharing.CompanyDAOImpl.getAllCompanies(CompanyDAOImpl.java:39)
+	at carsharing.Main.printCompanyList(Main.java:65)
+	at carsharing.Main.loginAsManager(Main.java:52)
+	at carsharing.Main.loginAsManager(Main.java:57)
+	at carsharing.Main.loginAsManager(Main.java:53)
+	at carsharing.Main.main(Main.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:173)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:200)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-06-29 14:34:52 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLDataException: Invalid value "0" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:334)
+	at carsharing.CompanyDAOImpl.getAllCompanies(CompanyDAOImpl.java:39)
+	at carsharing.Main.printCompanyList(Main.java:65)
+	at carsharing.Main.loginAsManager(Main.java:52)
+	at carsharing.Main.loginAsManager(Main.java:57)
+	at carsharing.Main.loginAsManager(Main.java:53)
+	at carsharing.Main.main(Main.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:173)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:200)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-06-29 18:14:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, COMPANY_ID INTEGER NOT NULL, FOREIGN KEY COMPANY_ID[*] REFERENCES COMPANY(ID) )"; expected "("; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, company_id INTEGER NOT NULL, FOREIGN KEY company_id REFERENCES company(id) ) [42001-200]
+2021-06-29 18:14:28 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, COMPANY_ID INTEGER NOT NULL, FOREIGN KEY COMPANY_ID[*] REFERENCES COMPANY(ID) )"; expected "("; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, company_id INTEGER NOT NULL, FOREIGN KEY company_id REFERENCES company(id) ) [42001-200]
+2021-06-29 18:14:28 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, COMPANY_ID INTEGER NOT NULL, FOREIGN KEY COMPANY_ID[*] REFERENCES COMPANY(ID) )"; expected "("; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, company_id INTEGER NOT NULL, FOREIGN KEY company_id REFERENCES company(id) ) [42001-200]
+2021-06-29 18:14:28 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, COMPANY_ID INTEGER NOT NULL, FOREIGN KEY COMPANY_ID[*] REFERENCES COMPANY(ID) )"; expected "("; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, company_id INTEGER NOT NULL, FOREIGN KEY company_id REFERENCES company(id) ) [42001-200]
+2021-06-29 18:17:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, COMPANY_ID INTEGER NOT NULL, FOREIGN KEY COMPANY_ID[*] REFERENCES COMPANY(ID) )"; expected "("; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, company_id INTEGER NOT NULL, FOREIGN KEY company_id REFERENCES company(id) ) [42001-200]
+2021-06-29 18:17:39 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, COMPANY_ID INTEGER NOT NULL, FOREIGN KEY COMPANY_ID[*] REFERENCES COMPANY(ID) )"; expected "("; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, company_id INTEGER NOT NULL, FOREIGN KEY company_id REFERENCES company(id) ) [42001-200]
+2021-06-29 18:17:39 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, COMPANY_ID INTEGER NOT NULL, FOREIGN KEY COMPANY_ID[*] REFERENCES COMPANY(ID) )"; expected "("; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, company_id INTEGER NOT NULL, FOREIGN KEY company_id REFERENCES company(id) ) [42001-200]
+2021-06-29 18:17:39 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CAR (ID INTEGER PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(50) UNIQUE NOT NULL, COMPANY_ID INTEGER NOT NULL, FOREIGN KEY COMPANY_ID[*] REFERENCES COMPANY(ID) )"; expected "("; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INTEGER PRIMARY KEY AUTO_INCREMENT, name VARCHAR(50) UNIQUE NOT NULL, company_id INTEGER NOT NULL, FOREIGN KEY company_id REFERENCES company(id) ) [42001-200]
+2021-06-29 18:19:31 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLDataException: Invalid value "0" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:334)
+	at carsharing.CompanyDAOImpl.getCompany(CompanyDAOImpl.java:64)
+	at carsharing.Main.printCompanyList(Main.java:77)
+	at carsharing.Main.loginAsManager(Main.java:50)
+	at carsharing.Main.loginAsManager(Main.java:55)
+	at carsharing.Main.loginAsManager(Main.java:55)
+	at carsharing.Main.printCompanyList(Main.java:80)
+	at carsharing.Main.loginAsManager(Main.java:50)
+	at carsharing.Main.loginAsManager(Main.java:55)
+	at carsharing.Main.loginAsManager(Main.java:51)
+	at carsharing.Main.main(Main.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:173)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:200)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-06-29 18:22:36 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLDataException: Invalid value "0" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:334)
+	at carsharing.CompanyDAOImpl.getCompany(CompanyDAOImpl.java:64)
+	at carsharing.Main.printCompanyList(Main.java:77)
+	at carsharing.Main.loginAsManager(Main.java:50)
+	at carsharing.Main.loginAsManager(Main.java:55)
+	at carsharing.Main.loginAsManager(Main.java:55)
+	at carsharing.Main.printCompanyList(Main.java:80)
+	at carsharing.Main.loginAsManager(Main.java:50)
+	at carsharing.Main.loginAsManager(Main.java:55)
+	at carsharing.Main.loginAsManager(Main.java:51)
+	at carsharing.Main.main(Main.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:173)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:200)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2021-06-29 18:22:36 jdbc[27]: exception
+org.h2.jdbc.JdbcSQLDataException: Invalid value "0" for parameter "columnIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3212)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3251)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:334)
+	at carsharing.CompanyDAOImpl.getCompany(CompanyDAOImpl.java:64)
+	at carsharing.Main.printCompanyList(Main.java:77)
+	at carsharing.Main.loginAsManager(Main.java:50)
+	at carsharing.Main.loginAsManager(Main.java:55)
+	at carsharing.Main.loginAsManager(Main.java:55)
+	at carsharing.Main.main(Main.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:173)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:200)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
